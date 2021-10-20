@@ -3,6 +3,7 @@ window.onload = function() {
 
  outputFlag = false;
  fechaSet = false;
+ 
 
 let data = [];
 
@@ -88,6 +89,16 @@ let data = [];
             
         // }
 
+        let notes = $("#notesText")[0].value;
+        
+        
+            $("#notesOutT").text(`${notes}`)
+        
+        
+
+        
+
+
         for(let i=0; i <data.length; i++){
             if(data[i].value == "Lorem ipsum dolor sit amet consectetur adipisicing elit"  || data[i].value == "Titular de apertura a 3 líneas"){
                 $("#outTable").append(`<tr> <td> ${data[i].id} </td> <td> <i> Pendiente de asignar </i> </td> </tr>`)
@@ -103,7 +114,7 @@ let data = [];
         $("tr:nth-of-type(10)").after( "<tr> <td>  <td> </tr>" );
         $("tr:nth-of-type(16)").after( "<tr> <td>  <td> </tr>" );
         $("tr:nth-of-type(20)").after( "<tr> <td>  <td> </tr>" );
-        $("tr:nth-of-type(24)").after( "<tr> <td>  <td> </tr>" );
+        
 
         
 

@@ -156,6 +156,28 @@ svg{
 }
 
 
+#geoBlock{
+  margin-bottom: 40px;
+  
+}
+
+
+
+#notes{
+  padding-top: 30px;
+  border-top: 1px dotted grey;
+}
+
+#notesOut{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#notesOutT{
+  font-family: 'TiemposText-Regular', serif;
+}
+
+
 
 
 /* END OF NEW STYLES */
