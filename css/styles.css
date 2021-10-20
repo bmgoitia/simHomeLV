@@ -1,0 +1,313 @@
+@font-face{
+  font-family: TiemposText-Bold;
+  src: url('TiemposText-Bold.woff'), url('TiemposText-Bold.woff') format('woff');
+}
+
+@font-face{
+  font-family: TiemposText-Regular;
+  src: url('TiemposText-Regular.woff'), url('TiemposText-Regular.woff') format('woff');
+}
+
+
+body{
+  width: 100%;
+  font-family: 'TiemposText-Bold', serif;
+  line-height: 30px;
+  letter-spacing: -1px;
+}
+
+
+
+/* NEW STYLES */
+
+
+#container{
+  width: 100%;
+  
+}
+
+#contentHomeLV{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+
+/* BANNER */
+
+#bannerLV{
+  width: 100%;
+  max-height: 76px;
+  display: grid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #001c4c;
+  
+}
+
+
+#logo{
+  text-align: center;
+}
+
+svg{
+  max-width: 350px;
+  max-height: 40px;
+}
+
+
+
+
+
+
+/* HOME CONTENT */
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+
+.titAp{
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+
+.subtAp{
+  font-family: 'TiemposText-Regular', serif;
+  line-height: 17px;
+  font-size: .92rem;
+}
+
+
+
+#ap1 .imgPiece{
+  background-image:url('../img/blurry7.jpg');
+}
+
+#ap2 .imgPiece{
+  background-image:url('../img/blurry24.jpg');
+}
+
+.imgPiece{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 200px;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+
+
+.imgPieceText{
+  padding: 0 10%;
+  color: #fff;
+  font-size: 1.45rem;
+}
+
+
+#contentHomeLV .card{
+  border: none;
+}
+
+#contentHomeLV .card-body{
+  padding-top: 6px;
+  padding-left: 3px;
+}
+
+#contentHomeLV .card img{
+  border-radius: 0;
+}
+
+#contentHomeLV .card h5{
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #4f89b9;
+}
+
+
+#contentHomeLV .card p{
+  font-size: 1.2rem;
+  line-height: 20px;
+  letter-spacing: -1px;
+}
+
+
+
+
+#ap2{
+  margin-top: 20px;
+}
+
+
+
+
+
+/* provisional bug fix */
+
+#esp{
+  max-height: 130px;
+
+}
+
+
+
+
+/* END OF NEW STYLES */
+
+
+
+
+
+
+
+#pGrid{
+  margin: 20px;
+}
+
+#container .bg-light{
+  background-color: #5d5e5e !important;
+}
+
+.form-check-label{
+  color: #fff;
+}
+
+
+
+
+
+#generateP{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-grey{
+  color: #fff;
+  background-color:#3f3f3f;
+  border-color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.btn-grey:hover {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+
+#generateP button{
+  font-weight: 800;
+  letter-spacing: .8px;
+}
+
+
+#apPlant{
+  text-align: end;
+  font-size: 1.2rem;
+  
+}
+
+#apPlant .form-check-label{
+  /* font-family:'Times New Roman', Times, serif; */
+  text-transform: uppercase;
+  color: #001c4c;
+}
+
+#plantAp2{
+  margin-left: 20px;
+}
+
+
+#container .border{
+  border: 3px solid #a7a7a7 !important;
+  text-align: end;
+}
+
+
+
+
+
+/* Apertura 1 bis */
+
+#ap1Bis{
+  display: none;
+}
+
+
+
+
+/* Final buttons */
+
+#finalButtons{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+#bExtra, #bOutput{
+  text-align: center;
+}
+
+#finalButtons button{
+  font-size:.98rem;
+  border: 2px solid #ffffff;
+  background-color: #001c4c;
+  text-transform: uppercase;
+  color:#ffffff;
+  -webkit-box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+  -moz-box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+  box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+}
+
+#finalButtons button:hover {
+  font-size: 1.1rem;
+}
+
+
+
+/* Extra Blocks */
+
+#extraBlocks{
+  display: none;
+}
+
+#extraBlocksSelect{
+  margin: 0 auto;
+  max-width:400px;
+}
+
+
+
+/* Print extra blocks */
+
+#printExtraBlocks{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#printExtraBlocks .row{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* OUTPUT */
+
+#output{
+  display: none;
+}
+
+
+tr, td{
+  border: 1px solid #585858;
+  padding: 8px;
+}
+
