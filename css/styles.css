@@ -92,6 +92,10 @@ svg{
   background-image:url('../img/blurry24.jpg');
 }
 
+#Sel .imgPiece{
+  background-image:url('../img/blurry9.jpg');
+}
+
 .imgPiece{
   display: flex;
   justify-content: flex-end;
@@ -103,12 +107,25 @@ svg{
 }
 
 
+#Sel .imgPiece{
+  align-items: flex-start;
+}
+
+
+
 
 .imgPieceText{
-  padding: 0 10%;
+  padding: 0 7%;
   color: #fff;
   font-size: 1.45rem;
 }
+
+#Sel .imgPiece p{
+  margin-top: 1rem;
+  text-align: end;
+  padding: 0 5%;
+}
+
 
 
 #contentHomeLV .card{
